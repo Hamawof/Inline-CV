@@ -1,0 +1,22 @@
+{
+  "name": "Projet CVV2",
+  "authors": [
+    "Florian Marcinkowski <Florian.Marcinkowski@laspote.net>"
+  ],
+  "description": "Version 2 du projet CV Florian Marcin",
+  "main": "index.html",
+  "keywords": [
+    "developpeur",
+    "web/mobile"
+  ],
+  "license": "unlicensed",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
