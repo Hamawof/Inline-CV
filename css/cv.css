@@ -57,10 +57,10 @@ body {
     text-align: center;
     margin-bottom: 40px; }
   .leftcontainer .blockcat {
-    height: 10%;
+    height: 30px;
     padding: 15px;
     color: black;
-    margin-top: 8%;
+    margin-top: 20px;
     text-align: center;
     box-sizing: border-box;
     line-height: 8px;
@@ -76,6 +76,16 @@ h3 {
 
 @media screen and (max-width: 1100px) {
   .leftcontainer {
-    width: 100%; } }
+    width: 100%; }
+
+  .blockcat {
+    height: 36px;
+    padding: 15px;
+    color: black;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 36px; } }
 
 /*# sourceMappingURL=cv.css.map */
