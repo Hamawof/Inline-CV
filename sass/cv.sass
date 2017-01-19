@@ -15,7 +15,10 @@ body, html
 body
   background: url("../img/fond3.png") no-repeat
   background-position: center top
-  background-size: 100%
+  background-size: cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
 
 .coverimg
   width: 100%
@@ -40,6 +43,8 @@ body
   background: whitesmoke
   height: 100%
   position: relative
+  min-width: 180px
+
   .imgprofil
     width: 130px
     height: 130px
@@ -50,12 +55,12 @@ body
     padding: 25px
   h1
     font-size: 20px
-    color: black
+    color: linear-gradient(to bottom, #2d3841 0, #010c16 100%)
     text-align: center
     padding: 5px
   h2
     font-size: 12px
-    color: black
+    color: linear-gradient(to bottom, #2d3841 0, #010c16 100%)
     text-align: center
     margin-bottom: 40px
   .blockcat
@@ -68,11 +73,10 @@ body
     line-height: 8px
     opacity: 1
     background: lightgreen
-  .blockcat:hover
-    background-color: white
-    color: red
-    box-sizing: border-box
-    border-left: 10px solid whitesmoke
-    border-right: 10px solid lightgreen
+
+.blockcat:hover
+  color: red
+  box-sizing: border-box
+
 h3
   font-size: 14px
